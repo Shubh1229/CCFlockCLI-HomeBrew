@@ -1,9 +1,9 @@
 class Ccflock < Formula
   desc "CLI for interacting with the Cloud Connected Flock project"
   homepage "https://github.com/Shubh1229/ccflock-cli"
-  url "https://github.com/Shubh1229/ccflock-cli/releases/download/v0.1.0/ccflock"
-  sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
-  version "0.1.0"
+  url "https://github.com/Shubh1229/CCFlockCLI/releases/download/v0.0.1/ccflock"
+  sha256 "804227f54635e855f2d96ca5dc7092e2096b64f3d5fd36e3382f80f2f8f1ba64"
+  version "0.0.1"
 
   def install
     bin.install "ccflock"
