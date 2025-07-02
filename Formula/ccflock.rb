@@ -15,6 +15,11 @@ class Ccflock < Formula
   def installMore actions
     bin.install "ccflock"
   end
+  def install
+    mv "ccflock", "ccflock" unless File.exist?("ccflock")
+    chmod "+x", "ccflock"
+    bin.install "ccflock"
+  end
 
   test do
     system "#{bin}/ccflock", "--help"
