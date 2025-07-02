@@ -4,7 +4,7 @@ class Ccflock < Formula
 
   if OS.mac?
     url "https://github.com/Shubh1229/CCFlockCLI/releases/download/v1.2.8/ccflock"
-    sha256 "f10b783cb40bd61d9e2b60954ad4fbd6eb88afe7a0ba0d4fb2fcea2d5c23c506"
+    sha256 "063765b90396740f4d6168fa1f6a5a3d22f1620ccbeccf4b3df29b85e0375247"
   elsif OS.linux?
     url "https://github.com/Shubh1229/CCFlockCLI/releases/download/v0.0.1-linux/ccflock"
     sha256 "0f0c2b8dbb870acd62244431fe7353a397377f976fc5e361111a71f5c3504752"
